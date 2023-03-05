@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+}
+
+.digit {
+    padding: 0.2em;
+    border-radius: 0.2em;
+    background-color: white;
+    color: black;
+    margin: 0 0.2em;
+}
+
+@media (max-width: 768px) {
+    .clock {
+        font-size: 5em;
+    }
+
+    .digit {
+        padding: 0.1em;
+        border-radius: 0.1em;
+    }
+}
